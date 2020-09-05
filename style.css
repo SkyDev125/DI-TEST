@@ -1,0 +1,154 @@
+/* Inputs */
+
+form {
+    background-color:rgba(44, 44, 51, 0.3);
+    text-justify: auto;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+fieldset {
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(19, 18, 18);
+}
+
+.label1 {
+    font-size: 50px;
+    color: #b8b8b8;
+}
+
+select {
+    font-size: 40px;
+    width: 130px;
+    height: 50px;
+    text-align-last:center;
+    border-radius: 5px;
+}
+
+.label2 {
+    font-size: 50px;
+    color: #b8b8b8;
+}
+
+input[type="number"] {
+    font-size: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+input[type="number"]::placeholder {  
+    text-align: center; 
+} 
+
+/* Buttons */
+
+input[type="button"] {
+    background: #cc4949;
+    color: #e3e3e3;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: 0.1s all linear;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #b8b8b8;
+}
+
+.button1:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #383e41;
+    border-radius: 3px; 
+}
+
+.button2:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #383e41; 
+    border-radius: 3px;
+}
+
+/* Body - related */
+
+body {
+    background-image: url("https://dmginc.gg/uploads/monthly_2019_10/DI-BG-Web-Optimized.png.43bfd485365c7b593447f1c4e11b8987.png");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.NumbersAnswer {
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgb(67, 145, 190);
+    color: #b8b8b8;
+    border-radius: 10px;
+    background-color:rgba(44, 44, 51, 0.3);
+    text-justify: auto;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.NoNumberChoosen {
+    color: #b64240;
+}
+
+.ApiResponse {
+    font-size: 25px;
+    color: #707070;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+
+.FoK {
+    color: #b8b8b8;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+
+/* Footer - related */
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #b8b8b8;
+    background-color:rgba(44, 44, 51, 0.3);
+    border-style: solid;
+    border-color: rgb(108, 76, 151);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SocialMedia {
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Description {
+    font-size: 20px;
+}
+
+.FacebookSocial:hover {
+    color: violet;
+}

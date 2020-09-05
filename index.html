@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <!--Import Needed libraries + script + css -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a7c5487157.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <head>
+        <!--Page Details-->
+        <title>GJ Fun Numbers</title>
+    </head>
+
+    <body>
+        <a href="https://dmginc.gg/"><img src="https://dmginc.gg/uploads/monthly_2019_10/DIBanner-LightTransBG-100.png.707909196b7038738bda6ae93e93f6f9.png" alt="Damage Inc"></a>
+        <!--Form to take information for API-->
+        <form onsubmit="event.preventDefault()">
+            <fieldset>
+                <p>
+                    <label class="label1">Number Type:</label>
+                </p>
+                <p>
+                    <!--DropDown List - Number Type-->
+                    <select id="NumberType" class="dropdown" id="DropDown">
+                        <option value = "math">Math</option>
+                        <option value = "trivia">Trivia</option>
+                        <option value = "date">Date</option>
+                        <option value = "year">Year</option>
+                    </select>
+                </p>
+                <p>
+                    <label class="label2">Your Number:</label>
+                </p>
+                <p id="NoNumberChoosen" class="NoNumberChoosen">
+                </p>
+                <p>
+                    <!--Number Input-->
+                    <input type="number" alt="Insert Your Number" placeholder="Insert Number here" class="NumberChoosen" id="NumberChoosen" required>
+                </p>
+                <p>
+                    <!--Buttons-->
+                    <input type="button" alt="Randomize" value="randomize" class="button1" onclick="randomize()">
+                    <label class="label3">Or</label>
+                    <input type="button" alt="Submit" value="submit" class="button2" onclick="Submit()">
+                </p>
+            </fieldset>
+        </form>
+        <div class="NumbersAnswer">
+            <h1 class="FoK">
+                Font of knowledge:
+                <!--Api Response--> 
+                <b class="ApiResponse" id="ApiResponse">
+                </b>
+            </h1> 
+        </div>
+    </body>
+    <footer>
+        <!--Description Of the Website-->
+        <h1>Why does this exist?</h1>
+        <div class="DescriptionDiv">
+            <p class="Description">
+                Great Jackal loves data and numbers, and it made him want a new website where members can enter a number, and get some information in return. 
+                <br>
+                    So I said: "well, lets do this then!"
+                <br>
+                <del>Oh and I need to do this because a TEST 5head</del>
+            </p>
+        </div>
+        <div>
+            <img src="https://dmginc.gg/uploads/emoticons/laugh112.png">
+            <!--Social Media Information-->
+            <p id="SocialMedia" class="SocialMedia">
+                <a href="https://www.facebook.com/dmgincs" target="_blank" style="text-decoration: none; color: rgb(108, 76, 151);" class="FacebookSocial">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.twitch.tv/dmgincs" target="_blank" style="text-decoration: none; color: rgb(108, 76, 151);">
+                    <i class="fab fa-twitch"></i>
+                </a>
+                <a href="https://twitter.com/dmgincs" target="_blank" style="text-decoration: none; color: rgb(108, 76, 151);">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/dmgincs/" target="_blank" style="text-decoration: none; color: rgb(108, 76, 151);">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCblUR-q3BCRLE-WiPURoFIA" target="_blank" style="text-decoration: none; color: rgb(108, 76, 151);">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+</html>
