@@ -12,3 +12,5 @@ DevOps would be incredible for me to always have something to do, and not be sit
 Afterall Im happy at how this went, and of course the site is not the best, and ive always look into making it get even prettier with the time. I tried to make it DI-ISH style, and i think i quite got the style of DI, even though still applying a personal mark of myself.
 
 Thx for this oportunity of learning and this challenge of things that i have not done in past. IT took me many hours, but after learning it, now everything is easier!
+
+Acess to the website directly hosted by Glitch : http://arrow-jolly-king.glitch.me/
