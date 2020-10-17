@@ -143,12 +143,30 @@ footer {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    text-decoration: none;
+    color: rgb(108, 76, 151);
 }
 
 .Description {
     font-size: 20px;
 }
 
-.FacebookSocial:hover {
-    color: violet;
+.FaFacebook {
+    text-decoration: none; color: rgb(108, 76, 151);
+}
+
+.FaTwitch {
+    text-decoration: none; color: rgb(108, 76, 151);
+}
+
+.FaTwitter {
+    text-decoration: none; color: rgb(108, 76, 151);
+}
+
+.FaInstagram {
+    text-decoration: none; color: rgb(108, 76, 151);
+}
+
+.FaYoutube {
+    text-decoration: none; color: rgb(108, 76, 151);
 }
